@@ -26,5 +26,6 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jersey')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-jdk-http', version: '2.25.1'
+
 }
