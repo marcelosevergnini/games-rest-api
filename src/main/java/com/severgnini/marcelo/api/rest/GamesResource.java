@@ -1,7 +1,7 @@
 package com.severgnini.marcelo.api.rest;
 
-import com.severgnini.marcelo.api.framework.config.security.annotations.Secured;
-import com.severgnini.marcelo.api.framework.config.security.enums.Role;
+import com.severgnini.marcelo.api.framework.security.annotations.Secured;
+import com.severgnini.marcelo.api.framework.security.enums.Role;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.Consumes;
