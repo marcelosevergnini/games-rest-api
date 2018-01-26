@@ -9,4 +9,6 @@
     <img align="left"  src="docs/img/gradle-icon.png">
 </p>
 
-REST API for games database with Springboot and JAX-RS 
+<p>
+    REST API for games database with Springboot and JAX-RS 
+</p>
