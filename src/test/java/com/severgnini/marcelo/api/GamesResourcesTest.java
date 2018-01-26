@@ -1,4 +1,4 @@
-package com.severgnini.marcelo.service;
+package com.severgnini.marcelo.api;
 
 
 import com.severgnini.marcelo.api.framework.config.JerseyConfig;
