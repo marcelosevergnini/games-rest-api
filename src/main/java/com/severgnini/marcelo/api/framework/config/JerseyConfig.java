@@ -12,7 +12,7 @@ public class JerseyConfig  extends ResourceConfig{
 
     @Autowired
     public JerseyConfig(){
-        packages("com.severgnini.marcelo.api.framework.rest");
+        packages("com.severgnini.marcelo.api.rest");
     }
 
 }
