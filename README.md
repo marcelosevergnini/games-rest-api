@@ -8,5 +8,4 @@
 <img align="left"  src="docs/img/jaxrs-icon.png">
 <img align="left"  src="docs/img/gradle-icon.png">
 
-
-REST API for games database with Springboot and JAX-RS 
+#####REST API for games database with Springboot and JAX-RS 
