@@ -1,4 +1,4 @@
-package com.severgnini.marcelo.api.models;
+package com.severgnini.marcelo.api.model;
 
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
