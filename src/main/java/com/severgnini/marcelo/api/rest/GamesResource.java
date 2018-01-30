@@ -1,7 +1,5 @@
 package com.severgnini.marcelo.api.rest;
 
-import com.severgnini.marcelo.api.framework.security.annotations.Secured;
-import com.severgnini.marcelo.api.framework.security.enums.Role;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.Consumes;
@@ -25,7 +23,6 @@ public class GamesResource {
 
     @GET
     @Path("all")
-    @Secured({Role.USER})
     public Response getAll(){
         return Response.ok().entity(new StringBuilder("Hello World, Working fine!!").toString()).build();
     }
